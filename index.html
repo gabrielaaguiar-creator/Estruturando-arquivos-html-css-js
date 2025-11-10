@@ -48,7 +48,7 @@ background-color: black;
 width: 207px;
 height:30px;
 margin:5px;
-font-size: 10px;
+font-size: 50px;
 color: black;
 text-align:right ;
 padding: 5px;
@@ -67,7 +67,7 @@ padding: 5px;
   <p id="resultado"></p>
   <table>
 <tr>
-<td><button class="botao" onclick="clean('')">C</button></td>
+<td><button class="botao" onclick="clean()">C</button></td>
 <td><button class="botao" onclick="back('')"><</button></td>
 <td><button class="botao"  onclick="insert('%')">%</button></td>
 <td><button class="botao"  onclick="insert('X')">X</button></td>
@@ -113,7 +113,7 @@ padding: 5px;
   }
   function clean()
   {
-    document.getElementById(resultado).innerHTML = "";
+  document.getElementById('resultado').innerHTML = "";
   }
   function back()
   {
