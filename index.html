@@ -48,7 +48,7 @@ background-color: black;
 width: 207px;
 height:30px;
 margin:5px;
-font-size: 50px;
+font-size: 30px;
 color: black;
 text-align:right ;
 padding: 5px;
@@ -70,7 +70,7 @@ padding: 5px;
 <td><button class="botao" onclick="clean()">C</button></td>
 <td><button class="botao" onclick="back()"><</button></td>
 <td><button class="botao"  onclick="insert('%')">%</button></td>
-<td><button class="botao"  onclick="insert('X')">X</button></td>
+<td><button class="botao"  onclick="insert('*')">X</button></td>
 
 </tr>
 <tr>
@@ -109,7 +109,7 @@ padding: 5px;
   function insert(num)
   {
  var numero = document.getElementById('resultado').innerHTML;
- document.getElementById('resultado').innerHTML=numero+num;
+ document.getElementById('resultado').innerHTML = numero + num;
   }
   function clean()
   {
